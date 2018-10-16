@@ -5,12 +5,20 @@ CREATE TABLE product (
    product_image VARCHAR(45) NULL,
    product_price INT NULL,
    category_id INT NULL,
-   PRIMARY KEY (product_id));
+   PRIMARY KEY (product_id))
+engine = innodb
+auto_increment = 1
+character set utf8
+collate utf8_general_ci;
 
 CREATE TABLE category (
    category_id INT NOT NULL AUTO_INCREMENT,
    category_title VARCHAR(45) NULL,
-   PRIMARY KEY (category_id));
+   PRIMARY KEY (category_id))
+engine = innodb
+auto_increment = 1
+character set utf8
+collate utf8_general_ci;
 
 ALTER TABLE product
 ADD INDEX fk_product_1_idx (category_id ASC);
