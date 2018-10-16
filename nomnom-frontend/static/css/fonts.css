@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'Rubik';
+  font-weight: 400;
+  font-display: fallback;
+  src: url('/src/assets/fonts/Rubik/Rubik-Regular.woff2') format('woff2'),
+  url('/src/assets/fonts/Rubik/Rubik-Regular.woff') format('woff'),
+  url('/src/assets/fonts/Rubik/Rubik-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Rubik';
+  font-weight: 600;
+  font-display: fallback;
+  src: url('/src/assets/fonts/Rubik/Rubik-Medium.woff2') format('woff'),
+  url('/src/assets/fonts/Rubik/Rubik-Medium.woff') format('woff'),
+  url('/src/assets/fonts/Rubik/Rubik-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Rubik';
+  font-weight: 600;
+  font-style: italic;
+  font-display: fallback;
+  src: url('/src/assets/fonts/Rubik/Rubik-MediumItalic.woff2') format('woff'),
+  url('/src/assets/fonts/Rubik/Rubik-MediumItalic.woff') format('woff'),
+  url('/src/assets/fonts/Rubik/Rubik-MediumItalic.ttf') format('truetypeopentype');
+}
+
+@font-face {
+  font-family: 'Rubik';
+  font-weight: 300;
+  font-display: fallback;
+  src: url('/src/assets/fonts/Rubik/Rubik-Light.woff2') format('woff2'),
+  url('/src/assets/fonts/Rubik/Rubik-Light.woff') format('woff'),
+  url('/src/assets/fonts/Rubik/Rubik-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Rubik';
+  font-weight: 300;
+  font-style: italic;
+  font-display: fallback;
+  src: url('/src/assets/fonts/Rubik/Rubik-LightItalic.woff2') format('woff2'),
+  url('/src/assets/fonts/Rubik/Rubik-LightItalic.woff') format('woff'),
+  url('/src/assets/fonts/Rubik/Rubik-LightItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Rubik';
+  font-weight: 800;
+  font-display: fallback;
+  src: url('/src/assets/fonts/Rubik/Rubik-Bold.woff2') format('woff2'),
+  url('/src/assets/fonts/Rubik/Rubik-Bold.woff') format('woff'),
+  url('/src/assets/fonts/Rubik/Rubik-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Rubik';
+  font-weight: 800;
+  font-style: italic;
+  font-display: fallback;
+  src: url('/src/assets/fonts/Rubik/Rubik-Italic.woff2') format('woff2'),
+  url('/src/assets/fonts/Rubik/Rubik-Italic.woff2') format('woff'),
+  url('/src/assets/fonts/Rubik/Rubik-Italic.ttf') format('truetype');
+}

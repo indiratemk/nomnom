@@ -1,0 +1,7 @@
+:root {
+  --accent-gradient: linear-gradient(-90deg, #F35D8A 0%, #E71543 150%);
+  --common-shadow: 0 5px 4px rgba(0, 0, 0, .1);
+  --primary-light-gray: #F2F2F6;
+  --primary-pink: #FE97B1;
+  --primary-dark: #434343;
+}
