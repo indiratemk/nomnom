@@ -1,7 +1,10 @@
 package io.nomnom.entities;
 
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import javax.persistence.*;
+import java.util.ArrayList;
 import java.util.List;
 
 @Entity
@@ -19,6 +22,7 @@ public class Category {
     @OneToMany(mappedBy = "category",
                 cascade = {CascadeType.DETACH, CascadeType.MERGE,
                 CascadeType.PERSIST, CascadeType.REFRESH})
+    @JsonIgnoreProperties("category")
     private List<Product> products;
 
     public Category() {
@@ -51,6 +55,7 @@ public class Category {
     public void setProducts(List<Product> products) {
         this.products = products;
     }
+
 
     @Override
     public String toString() {

@@ -1,5 +1,7 @@
 package io.nomnom.entities;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import javax.persistence.*;
 
 @Entity
@@ -27,6 +29,7 @@ public class Product {
     @ManyToOne(cascade = {CascadeType.MERGE, CascadeType.PERSIST,
                         CascadeType.DETACH, CascadeType.REFRESH})
     @JoinColumn(name = "category_id")
+    @JsonIgnoreProperties("products")
     private Category category;
 
     public Product() {
