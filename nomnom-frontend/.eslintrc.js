@@ -50,6 +50,7 @@ module.exports = {
     'comma-dangle': ['error', 'never'],
     quotes: ['error', 'double', { "allowTemplateLiterals": true }],
     'no-return-assign': 0,
-    'object-curly-spacing': 0
+    'object-curly-spacing': 0,
+    'arrow-parens': 0
   }
 };
