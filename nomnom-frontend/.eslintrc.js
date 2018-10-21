@@ -41,16 +41,15 @@ module.exports = {
         'e' // for e.returnvalue
       ]
     }],
-    // allow optionalDependencies
-    'import/no-extraneous-dependencies': ['error', {
-      optionalDependencies: ['test/unit/index.js']
-    }],
+    'import/no-extraneous-dependencies': 0,
     // allow debugger during development
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     indent: 0,
     'no-trailing-spaces': 0,
     'no-console': 0,
     'comma-dangle': ['error', 'never'],
-    quotes: ['error', 'double', { "allowTemplateLiterals": true }]
+    quotes: ['error', 'double', { "allowTemplateLiterals": true }],
+    'no-return-assign': 0,
+    'object-curly-spacing': 0
   }
 };
