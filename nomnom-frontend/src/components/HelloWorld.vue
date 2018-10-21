@@ -6,20 +6,20 @@
 </template>
 
 <script>
-
   export default {
     name: "hello-world",
     data() {
       return {
         msg: "Welcome to Your Vue.js App"
       };
-    }
+    },
+
   };
 </script>
 
 <style>
   .kek {
-    color: var(--accent);
+    color: var(--accent-gradient);
     border: 1px solid var(--accent);
   }
 </style>
