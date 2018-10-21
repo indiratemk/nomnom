@@ -1,5 +1,14 @@
 <template>
   <div>
+    <v-alert
+      :value="error"
+      type="error"
+      :dismissible="true"
+    >
+      {{ error }}
+    </v-alert>
+    <v-btn color="success" :left="true">Добавить новую категорию</v-btn>
+    <v-divider/>
     <v-expansion-panel>
       <v-expansion-panel-content
         v-for="category in categories"
@@ -20,20 +29,21 @@
 </template>
 
 <script>
-  import axios from "axios";
-
-
   export default {
     name: "AdminCategories",
     data() {
       return {
-        categories: null
+        categories: null,
+        error: null
       };
     },
     created() {
-      axios.get("http://localhost:8085/api/categories")
+      this.$axios.get("http://localhost:8085/api/categories")
         .then(({data}) => this.categories = data)
-        .catch(console.error);
+        .catch(error => {
+          console.error(error);
+          this.error = error.message;
+        });
     }
   };
 </script>
