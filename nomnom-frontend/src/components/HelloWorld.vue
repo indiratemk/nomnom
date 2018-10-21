@@ -19,7 +19,7 @@
 
 <style>
   .kek {
-    color: var(--accent);
-    border: 1px solid var(--accent);
+    color: var(--accent-gradient);
+    border: 1px solid var(--accent-gradient);
   }
 </style>
