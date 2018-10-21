@@ -51,6 +51,11 @@
             title: "Категории",
             icon: "list",
             link: "/admin/categories"
+          },
+          {
+            title: "Продукты",
+            icon: "cake",
+            link: "/admin/products"
           }
         ]
       };
