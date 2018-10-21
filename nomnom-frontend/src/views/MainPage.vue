@@ -1,23 +1,27 @@
 <template>
-  <div>
-    <h1>asd</h1>
-    <p>asd</p>
-    <img src="@images/logos/nomnom-logo-small.svg" alt="">
-    <img src="@images/logos/nomnom-logo.svg" alt="">
-    <img src="@images/bg.jpg" alt="">
+  <div class="container">
+  <app-header></app-header>
+  <app-menu></app-menu>
   </div>
 </template>
 
 <script>
+  import AppHeader from "../components/AppHeader";
+  import AppMenu from "../components/AppMenu";
+
   export default {
-    name: "main-page"
+    name: "main-page",
+    components: {
+        AppHeader,
+        AppMenu
+    }
+
   };
 </script>
 
 <style>
-  img {
-    /*width: 400px;*/
-    display: block;
+  .container{
+    background-color: var(--primary-light-gray);
   }
 </style>
 
