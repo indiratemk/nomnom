@@ -16,7 +16,7 @@
 </template>
 
 <script>
-  import AdminNavigation from "@views/Admin/AdminNavigation";
+  import AdminNavigation from "@views/admin/AdminNavigation";
 
 
   export default {
