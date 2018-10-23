@@ -14,7 +14,7 @@
   import Vue from "vue";
   import Vuetify from "vuetify";
 
-  import AdminHeader from "@views/Admin/AdminHeader";
+  import AdminHeader from "@views/admin/AdminHeader";
 
 
   Vue.use(Vuetify);
