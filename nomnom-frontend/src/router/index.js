@@ -1,6 +1,7 @@
 import Vue from "vue";
 import Router from "vue-router";
 import MainPage from "../views/MainPage";
+import WebSite from "../views/WebSite";
 import TestPage from "../views/TestPage";
 
 import admin from "./admin";
@@ -12,8 +13,15 @@ export default new Router({
   routes: [
     {
       path: "/",
-      name: "MainPage",
-      component: MainPage
+      name: "WebSite",
+      component: WebSite,
+      children: [
+        {
+          path: "/",
+          name: "MainPage",
+          component: MainPage
+        }
+      ]
     },
     {
       path: "/test",

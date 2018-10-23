@@ -58,6 +58,7 @@
     box-sizing: border-box;
     box-shadow: var(--common-shadow);
     outline: none;
+    background: #fff;
   }
   .basket {
     width: 32px;
