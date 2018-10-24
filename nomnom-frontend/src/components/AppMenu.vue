@@ -19,7 +19,6 @@
 <style scoped>
   .menu {
     display: flex;
-    list-style: none;
     margin: 8px;
     width: 492px;
     height: 20px;
