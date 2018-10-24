@@ -1,29 +1,35 @@
 <template>
-    <div class="popular-product">
-      <div class="popular-product__image">
-        <img src="@images/product1.svg" alt="product">
-      </div>
-      <div class="popular-product__description">
-        <div class="action-container">
-          <span class="action-container__link-more-info">
-            Подробнее
-          </span>
-          <div class="popular-product__heart-icon-button">
-            <img src="@images/icons/heart--outline.svg" alt="heart-icon">
-          </div>
-        </div>
-        <p class="popular-product__title">HARIBO Goldbears</p>
-        <p class="popular-product__price">460тг</p>
-        <button class="popular-product__to-basket-button">В корзину</button>
-        <a href="" class="popular-product__quick-buy-link">В один клик</a>
-      </div>
+  <div class="popular-product">
+    <div class="popular-product__image">
+      <img 
+        src="@images/product1.svg" 
+        alt="product">
     </div>
+    <div class="popular-product__description">
+      <div class="action-container">
+        <span class="action-container__link-more-info">
+          Подробнее
+        </span>
+        <div class="popular-product__heart-icon-button">
+          <img 
+            src="@images/icons/heart--outline.svg" 
+            alt="heart-icon">
+        </div>
+      </div>
+      <p class="popular-product__title">HARIBO Goldbears</p>
+      <p class="popular-product__price">460тг</p>
+      <button class="popular-product__to-basket-button">В корзину</button>
+      <a 
+        href="" 
+        class="popular-product__quick-buy-link">В один клик</a>
+    </div>
+  </div>
 </template>
 
 <script>
-    export default {
+export default {
 
-    };
+};
 </script>
 
 <style scoped>
@@ -50,7 +56,7 @@
     margin-left: 12px;
   }
   .action-container__link-more-info {
-    font-size: 10px;
+    font-size: 12px;
     cursor: pointer;
   }
   .popular-product__heart-icon-button {
@@ -78,9 +84,10 @@
     background-image: var(--accent-gradient);
     color: #ffffff;
     outline: none;
+    font-size: 14px;
     cursor: pointer;
   }
   .popular-product__quick-buy-link {
-    font-size: 10px;
+    font-size: 11px;
   }
 </style>

@@ -5,21 +5,21 @@
       <hr class="popular-products-container__line">
     </div>
     <div class="popular-products-container__items">
-      <app-popular-product></app-popular-product>
-      <app-popular-product></app-popular-product>
-      <app-popular-product></app-popular-product>
+      <app-popular-product/>
+      <app-popular-product/>
+      <app-popular-product/>
     </div>
   </div>
 </template>
 
 <script>
-    import AppPopularProduct from "../components/AppPopularProduct";
+import AppPopularProduct from '../components/AppPopularProduct';
 
-    export default {
-      components: {
-        AppPopularProduct
-    }
-  };
+export default {
+  components: {
+    AppPopularProduct
+  }
+};
 </script>
 
 <style scoped>

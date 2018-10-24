@@ -1,29 +1,37 @@
 <template>
-    <div class="header">
-      <div class="header__content">
-        <div class="header__left">
-          <img src="@images/logos/nomnom-logo-small.svg" alt="logo">
-        </div>
-        <div class="header__middle">
-          <input class="search-form" type="text" placeholder="Поиск...">
-        </div>
-        <div class="header__right">
-          <div class="basket">
-            <div class="basket__basket-icon">
-              <img class="basket__image" src="@images/icons/shopping-basket.svg" alt="basket">
-            </div>
-            <span class="basket__item-count">10</span>
+  <div class="header">
+    <div class="header__content">
+      <div class="header__left">
+        <img 
+          src="@images/logos/nomnom-logo-small.svg" 
+          alt="logo">
+      </div>
+      <div class="header__middle">
+        <input 
+          class="search-form" 
+          type="text" 
+          placeholder="Поиск...">
+      </div>
+      <div class="header__right">
+        <div class="basket">
+          <div class="basket__basket-icon">
+            <img 
+              class="basket__image" 
+              src="@images/icons/shopping-basket.svg" 
+              alt="basket">
           </div>
-          <button class="login-button">Войти</button>
+          <span class="basket__item-count">10</span>
         </div>
+        <button class="login-button">Войти</button>
       </div>
     </div>
+  </div>
 </template>
 
 <script>
-  export default {
+export default {
 
-  };
+};
 </script>
 
 <style scoped>
@@ -58,6 +66,7 @@
     box-sizing: border-box;
     box-shadow: var(--common-shadow);
     outline: none;
+    background: #fff;
   }
   .basket {
     width: 32px;

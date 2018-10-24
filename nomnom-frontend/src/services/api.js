@@ -1,7 +1,7 @@
-import axios from "axios";
+import axios from 'axios';
 
 
-axios.defaults.baseURL = "http://localhost:8085/api/";
+axios.defaults.baseURL = 'http://localhost:8085/api/';
 
 
 export default axios;

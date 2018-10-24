@@ -1,19 +1,34 @@
 <template>
-    <div class="main-content">
-      <ul class="menu">
-        <li class="menu__item"><router-link to="/test">Шоколад</router-link></li>
-        <li class="menu__item"><a href="">Мармелад</a></li>
-        <li class="menu__item"><a href="">Чупа-чупсы</a></li>
-        <li class="menu__item"><a href="">Печенье</a></li>
-        <li class="menu__item"><a href="">Конфеты</a></li>
-      </ul>
-    </div>
+  <div class="main-content">
+    <ul class="menu">
+      <router-link 
+        tag="li" 
+        class="menu__item" 
+        to="/test">Шоколад</router-link>
+      <router-link 
+        tag="li" 
+        class="menu__item" 
+        to="#">Мармелад</router-link>
+      <router-link 
+        tag="li" 
+        class="menu__item" 
+        to="#">Чупа-чупсы</router-link>
+      <router-link 
+        tag="li" 
+        class="menu__item" 
+        to="#">Печенье</router-link>
+      <router-link 
+        tag="li" 
+        class="menu__item" 
+        to="#">Конфеты</router-link>
+    </ul>
+  </div>
 </template>
 
 <script>
-    export default {
+export default {
 
-    };
+};
 </script>
 
 <style scoped>
@@ -24,5 +39,10 @@
     height: 20px;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .menu__item {
+    color: var(--primary-dark);
+    cursor: pointer;
   }
 </style>

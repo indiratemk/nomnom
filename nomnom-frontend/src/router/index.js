@@ -1,23 +1,23 @@
-import Vue from "vue";
-import Router from "vue-router";
-import MainPage from "../views/MainPage";
-import TestPage from "../views/TestPage";
+import Vue from 'vue';
+import Router from 'vue-router';
+import MainPage from '../views/MainPage';
+import TestPage from '../views/TestPage';
 
-import admin from "./admin";
+import admin from './admin';
 
 Vue.use(Router);
 
 export default new Router({
-  mode: "history",
+  mode: 'history',
   routes: [
     {
-      path: "/",
-      name: "MainPage",
+      path: '/',
+      name: 'WebSite',
       component: MainPage
     },
     {
-      path: "/test",
-      name: "TestPage",
+      path: '/test',
+      name: 'TestPage',
       component: TestPage
     },
     admin

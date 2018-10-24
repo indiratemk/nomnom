@@ -1,18 +1,22 @@
 <template>
-    <div class="banner">
-      <div class="banner__title">
-        <img src="@images/logos/nomnom-logo.svg" alt="logo">
-        <p class="banner__text">Интернет-магазин сладостей</p>
-      </div>
-      <div class="banner__image">
-        <img src="@images/nomnom-banner.svg" alt="banner">
-      </div>
+  <div class="banner">
+    <div class="banner__title">
+      <img
+        src="@images/logos/nomnom-logo.svg"
+        alt="logo">
+      <p class="banner__text">Интернет-магазин сладостей</p>
     </div>
+    <div class="banner__image">
+      <img
+        src="@images/nomnom-banner.svg"
+        alt="banner">
+    </div>
+  </div>
 </template>
 
 <script>
-    export default {
-    };
+export default {
+};
 </script>
 
 <style scoped>
