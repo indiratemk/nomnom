@@ -1,25 +1,29 @@
 <template>
+  <DefaultLayout>
     <div class="container__menu">
-      <app-menu></app-menu>
-      <app-banner></app-banner>
-      <app-popular-products-container></app-popular-products-container>
+      <app-menu/>
+      <app-banner/>
+      <app-popular-products-container/>
     </div>
+  </DefaultLayout>
 </template>
 
 <script>
-  import AppMenu from "../components/AppMenu";
-  import AppBanner from "../components/AppBanner";
-  import AppPopularProductsContainer from "../components/AppPopularProductsContainer";
+import DefaultLayout from '../layouts/DefaultLayout';
+import AppMenu from '../components/AppMenu';
+import AppBanner from '../components/AppBanner';
+import AppPopularProductsContainer from '../components/AppPopularProductsContainer';
 
-  export default {
-    name: "main-page",
-    components: {
-        AppMenu,
-        AppBanner,
-        AppPopularProductsContainer
-    }
+export default {
+  name: 'MainPage',
+  components: {
+    AppPopularProductsContainer,
+    DefaultLayout,
+    AppBanner,
+    AppMenu
+  }
 
-  };
+};
 </script>
 
 <style>

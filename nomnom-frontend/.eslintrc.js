@@ -6,11 +6,11 @@ module.exports = {
     parser: 'babel-eslint'
   },
   env: {
-    browser: true,
+    browser: true
   },
   // https://github.com/vuejs/eslint-plugin-vue#priority-a-essential-error-prevention
   // consider switching to `plugin:vue/strongly-recommended` or `plugin:vue/recommended` for stricter rules.
-  extends: ['plugin:vue/essential', 'airbnb-base'],
+  extends: ['plugin:vue/recommended', 'airbnb-base'],
   // required to lint *.vue files
   plugins: [
     'vue',
@@ -44,11 +44,9 @@ module.exports = {
     'import/no-extraneous-dependencies': 0,
     // allow debugger during development
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    indent: 0,
     'no-trailing-spaces': 0,
     'no-console': 0,
     'comma-dangle': ['error', 'never'],
-    quotes: ['error', 'double', { "allowTemplateLiterals": true }],
     'no-return-assign': 0,
     'object-curly-spacing': 0,
     'arrow-parens': 0
