@@ -46,7 +46,7 @@
     </div>
     <br>
     <hr class="footer__line">
-    <br>
+    <p class="footer__copyright"> ©2018 nomnom.io - интернет-магазин сладостей</p>
   </div>
 </template>
 
@@ -64,7 +64,7 @@ export default {
     justify-content: space-between;
     display: flex;
   }
-  .footer-list__item {
+  .footer-list__item, .footer__copyright {
     text-align: left;
     font-size: 12px;
     line-height: 1.4em;
@@ -72,8 +72,12 @@ export default {
   .footer-list:nth-child(4) .footer-list__item:nth-child(5),
   .footer-list:nth-child(4) .footer-list__item:nth-child(7),
   .footer-list:nth-child(5) .footer-list__item:nth-child(2),
-  .footer-list:nth-child(5) .footer-list__item:nth-child(3) {
+  .footer-list:nth-child(5) .footer-list__item:nth-child(3),
+  .footer__copyright {
     margin-top: 8px;
+  }
+  .footer__copyright {
+    margin-bottom: 8px;
   }
   .footer__line {
     display: block;

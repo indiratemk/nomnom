@@ -4,7 +4,7 @@
       <router-link 
         tag="li" 
         class="menu__item" 
-        to="/test">Шоколад</router-link>
+        to="/products-page">Шоколад</router-link>
       <router-link 
         tag="li" 
         class="menu__item" 

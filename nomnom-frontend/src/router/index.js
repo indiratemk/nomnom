@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import MainPage from '../views/MainPage';
-import TestPage from '../views/TestPage';
+import ProductsPage from '../views/ProductsPage';
 
 import admin from './admin';
 
@@ -16,9 +16,9 @@ export default new Router({
       component: MainPage
     },
     {
-      path: '/test',
-      name: 'TestPage',
-      component: TestPage
+      path: '/products-page',
+      name: 'ProductsPage',
+      component: ProductsPage
     },
     admin
   ]
