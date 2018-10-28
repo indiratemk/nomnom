@@ -18,7 +18,7 @@
       </div>
       <p class="popular-product__title">HARIBO Goldbears</p>
       <p class="popular-product__price">460тг</p>
-      <button class="popular-product__to-basket-button">В корзину</button>
+      <button class="button button_color_accent">В корзину</button>
       <a 
         href="" 
         class="popular-product__quick-buy-link">В один клик</a>
@@ -76,17 +76,7 @@ export default {
     text-align: right;
     margin-bottom: 4px;
   }
-  .popular-product__to-basket-button {
-    width: 106px;
-    height: 30px;
-    border-radius: 3px;
-    border: none;
-    background-image: var(--accent-gradient);
-    color: #ffffff;
-    outline: none;
-    font-size: 14px;
-    cursor: pointer;
-  }
+
   .popular-product__quick-buy-link {
     font-size: 11px;
   }

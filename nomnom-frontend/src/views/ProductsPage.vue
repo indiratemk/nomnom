@@ -1,18 +1,18 @@
 <template>
   <DefaultLayout>
-    <general-product />
+    <general-products-container />
   </DefaultLayout>
 </template>
 
 <script>
 import DefaultLayout from '../layouts/DefaultLayout';
-import GeneralProduct from '../components/GeneralProduct';
+import GeneralProductsContainer from '../components/GeneralProductsContainer';
 
 export default {
   name: 'TestPage',
   components: {
     DefaultLayout,
-    GeneralProduct
+    GeneralProductsContainer
   }
 };
 </script>
