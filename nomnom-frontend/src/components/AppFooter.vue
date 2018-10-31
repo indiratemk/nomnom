@@ -23,9 +23,9 @@
       </ul>
       <ul class="footer-list">
         <li class="footer-list__item">Контакты</li>
-        <li class="footer-list__item">727,г.Алматы</li>
+        <li class="footer-list__item">727, г.Алматы</li>
         <li class="footer-list__item">ул.Саина Шаляпина</li>
-        <li class="footer-list__item">д.22,кв.7</li>
+        <li class="footer-list__item">д.22, кв.7</li>
         <li class="footer-list__item">8-777-575-90</li>
         <li class="footer-list__item">8-727-364-44-13</li>
         <li class="footer-list__item">Пн-Вс 9.00-20.00</li>

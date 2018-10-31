@@ -2,9 +2,11 @@
   <div class="header">
     <div class="header__content">
       <div class="header__left">
-        <img 
-          src="@images/logos/nomnom-logo-small.svg" 
-          alt="logo">
+        <router-link to="/">
+          <img
+            src="@images/logos/nomnom-logo-small.svg"
+            alt="logo">
+        </router-link>
       </div>
       <div class="header__middle">
         <input 
