@@ -27,3 +27,6 @@
 
 ### Configs ###
 src/main/resources/application.properties
+testgitignore.txt
+
+src/main/resources/something.txt
